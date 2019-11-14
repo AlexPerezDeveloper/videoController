@@ -1,0 +1,47 @@
+.muteAll{
+  position: fixed;
+  bottom:30px;
+  right:30px;
+}
+.muteAll i{
+  font-size: 40px;
+  background-color: aquamarine;
+  color: white;
+  padding: 20px;
+  border-radius: 100%;
+}
+.mute{
+  position: relative;
+  font-size: 20px;
+  background-color: #666;
+  color: white !important;
+  padding: 20px;
+  border-radius: 100%;
+  margin-top:20px;
+  width: 30px;
+  height: 30px;
+}
+.mute:before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f028"; 
+  position: absolute;
+  top:5px;
+  left:0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.removeMute:before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f026"; 
+}
+#videoC{
+  max-width: 100%;
+}
+.App h3{
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
