@@ -10,20 +10,26 @@ class App extends Component {
 
 
   handleOnClick = (event) => {
-    if (event.target.paused) {
-      event.target.play();
-    } else {
-      event.target.pause();
-    }
-/*
-    let repr = event.target.previousSibling;
 
-    alert(repr);
-    if (repr.paused == true) {
-      repr.play();
-    } else {
-      repr.pause();
-    }*/
+
+    let x, i;
+    x = document.querySelectorAll("video");
+    for (i = 0; i < x.length; i++) {
+      
+      if(event.target == x[i]){
+        if (x[i].paused ){
+          event.target.play();
+        } else {
+          event.target.pause();
+        }
+      }else{
+        x[i].pause();
+      }
+
+     
+
+    }
+
   };
 
   handleOnClickMute = (event) => {
