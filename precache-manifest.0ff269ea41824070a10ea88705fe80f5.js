@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fbb9057f52bcc4ccf9b12e83604b2b40",
+    "revision": "716126f2ae443ab4f67bcf7e04c9bb15",
     "url": "/videoController/index.html"
   },
   {
-    "revision": "7c474aa7826b96225869",
+    "revision": "f3a304d65ad620be3620",
     "url": "/videoController/static/css/main.c7ffe2ea.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/videoController/static/js/2.c6bcf358.chunk.js"
   },
   {
-    "revision": "7c474aa7826b96225869",
-    "url": "/videoController/static/js/main.1b55ea50.chunk.js"
+    "revision": "f3a304d65ad620be3620",
+    "url": "/videoController/static/js/main.d0af5cb2.chunk.js"
   },
   {
     "revision": "74ac94c6a836826e7496",
