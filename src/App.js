@@ -29,11 +29,9 @@ class App extends Component {
   handleOnClickMute = (event) => {
     let vid = event.target.previousSibling;
     if (vid.muted == true) {
-      console.log("está mute");
       vid.muted = false;
       event.target.classList.remove('removeMute');
     } else {
-      console.log("no está mute");
       vid.muted = true;
       event.target.classList.add('removeMute');
     }
